@@ -5,7 +5,7 @@ describe('Greeting', function() {
 	it('should say "Good morning" at 4am', function() {
 		var time = new Date();
 		time.setHours(4);
-		expect(greeting(time)).to.be.eql("Good morning!!!");
+		expect(greeting(time)).to.be.eql("Good morning");
 	});
 
 	it('should say "Good afternoon" at 12pm', function() {
