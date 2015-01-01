@@ -23,6 +23,6 @@ describe('Greeting', function() {
 	it('should say "Good night" at 10pm', function() {
 		var time = new Date();
 		time.setHours(22);
-		expect(greeting(time)).to.be.eql("Good night");
+		expect(greeting(time)).to.be.eql("Good night!!!");
 	});
 });
