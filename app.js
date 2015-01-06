@@ -10,7 +10,7 @@ http.createServer(function (request, response) {
 	response.writeHead(200, {"Content-Type": "text/plain"});
 	response.write(content + '!\n');
 	response.write(nenv + '!\n');
-	response.write('=======!\n');
+	response.write('*******!\n');
 	response.end(cenv + '!\n');
 }).listen(port);
 
